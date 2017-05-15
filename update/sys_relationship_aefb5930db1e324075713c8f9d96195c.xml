@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>sys_user</basic_apply_to>
+        <basic_query_from>x_shce_systems_acc_user_system_access</basic_query_from>
+        <insert_callback/>
+        <name>User System Access</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+current.addQuery('user',parent.sys_id);
+})(current, parent);]]></query_with>
+        <reference_field>application</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-20 17:02:09</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>aefb5930db1e324075713c8f9d96195c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>User System Access</sys_name>
+        <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+        <sys_update_name>sys_relationship_aefb5930db1e324075713c8f9d96195c</sys_update_name>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-25 16:44:35</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=aefb5930db1e324075713c8f9d96195c"/>
+    <sys_ui_related_list_relationship_entry action="INSERT_OR_UPDATE">
+        <filter/>
+        <list_id display_value="User - Default view" name="sys_user" related_list="NULL" sys_domain="global" view="Default view">6187268cc0a801942a97c1616156ca77</list_id>
+        <order_by/>
+        <position>5</position>
+        <related_list>REL:aefb5930db1e324075713c8f9d96195c</related_list>
+        <sys_class_name>sys_ui_related_list_relationship_entry</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-20 17:02:10</sys_created_on>
+        <sys_id>e72cdd30db1e324075713c8f9d961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_relationship display_value="User System Access">aefb5930db1e324075713c8f9d96195c</sys_relationship>
+        <sys_ui_related_list display_value="User - Default view" name="sys_user" related_list="NULL" sys_domain="global" view="Default view">6187268cc0a801942a97c1616156ca77</sys_ui_related_list>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-20 17:02:10</sys_updated_on>
+    </sys_ui_related_list_relationship_entry>
+</record_update>

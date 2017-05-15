@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_shce_systems_acc_sac_req</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_shce_systems_acc_sac_req">applicationsISNOTEMPTY^EQ<item endquery="false" field="applications" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Populate Application List</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	var x = current.applications.split(',');
+	var z = [];
+	current.application_list = '';
+	
+	for (i=0; i<x.length; i++) {
+		var a = new GlideRecord('cmdb_ci_appl');
+		if (a.get(x[i])) {
+			z.push(a.name);
+		}
+	}
+	current.application_list = z.toString();
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-03-06 14:20:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>779681dadb51ba00d88e38ff9d96190c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Populate Application List</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+        <sys_update_name>sys_script_779681dadb51ba00d88e38ff9d96190c</sys_update_name>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-03-06 14:56:23</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=779681dadb51ba00d88e38ff9d96190c"/>
+</record_update>

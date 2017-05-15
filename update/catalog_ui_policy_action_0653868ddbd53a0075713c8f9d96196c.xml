@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Systems Access Control Request">758d2904db55b600d88e38ff9d961906</catalog_item>
+        <catalog_variable>IO:53e06074db9df60075713c8f9d961925</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-03-02 21:28:57</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>0653868ddbd53a0075713c8f9d96196c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sorian_signature</sys_name>
+        <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_0653868ddbd53a0075713c8f9d96196c</sys_update_name>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-03-02 21:40:04</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Display Sorian Fields">7b03068ddbd53a0075713c8f9d96192f</ui_policy>
+        <variable>sorian_signature</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_shce_systems_acc_soarian_roles" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_shce_systems_acc_soarian_roles" element="NULL" name="x_shce_systems_acc_soarian_roles" parent="NULL" relationship="NULL" sys_domain="global" view="4f621523db132200edafd92b5e96197e">b24ca551db9d3a0075713c8f9d961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-03-03 14:26:43</sys_created_on>
+            <sys_id>3e4ca551db9d3a0075713c8f9d961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-03-03 14:26:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>special</element>
+            <list_id display_value="x_shce_systems_acc_soarian_roles" element="NULL" name="x_shce_systems_acc_soarian_roles" parent="NULL" relationship="NULL" sys_domain="global" view="4f621523db132200edafd92b5e96197e">b24ca551db9d3a0075713c8f9d961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-03-03 14:26:43</sys_created_on>
+            <sys_id>b24ca551db9d3a0075713c8f9d961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-03-03 14:26:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_shce_systems_acc_soarian_roles</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-03-03 14:26:43</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b24ca551db9d3a0075713c8f9d961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_shce_systems_acc_soarian_roles</sys_name>
+            <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+            <sys_update_name>sys_ui_list_x_shce_systems_acc_soarian_roles_sys_ref_list</sys_update_name>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-03-03 14:26:43</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">4f621523db132200edafd92b5e96197e</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

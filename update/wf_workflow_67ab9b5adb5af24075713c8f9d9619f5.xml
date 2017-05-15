@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["81fe8b1fdb9ab600d88e38ff9d961922"],"activities":{"8dfec35fdb9ab600d88e38ff9d9619a7":"0dfe8b1fdb9ab600d88e38ff9d961921","81fe8b1fdb9ab600d88e38ff9d961922":"89fe8b1fdb9ab600d88e38ff9d961921"},"subflows":[],"stages":{"0dfe8b1fdb9ab600d88e38ff9d961921":{"stageId":"0dfe8b1fdb9ab600d88e38ff9d961921","duration":"","order":10,"name":"Fulfillment","value":"fulfillment"},"89fe8b1fdb9ab600d88e38ff9d961921":{"stageId":"89fe8b1fdb9ab600d88e38ff9d961921","duration":"","order":100,"name":"Completed","value":"complete"}}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition table="x_shce_systems_acc_sac_req">active=true^access_type=Remove all Employee Systems Access^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="access_type" goto="false" newquery="false" operator="=" or="false" value="Remove all Employee Systems Access"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>c1fec35fdb9ab600d88e38ff9d9619a6,01fec35fdb9ab600d88e38ff9d9619a7,c1fe8b1fdb9ab600d88e38ff9d961924,05fec35fdb9ab600d88e38ff9d9619a5|c1fec35fdb9ab600d88e38ff9d9619a6,01fec35fdb9ab600d88e38ff9d9619a7,41fe8b1fdb9ab600d88e38ff9d961923,05fec35fdb9ab600d88e38ff9d9619a5|05fec35fdb9ab600d88e38ff9d9619a5,8dfec35fdb9ab600d88e38ff9d9619a7,45fec35fdb9ab600d88e38ff9d9619a9,81fe8b1fdb9ab600d88e38ff9d961922</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>c1fec35fdb9ab600d88e38ff9d9619a6,01fec35fdb9ab600d88e38ff9d9619a7,c1fe8b1fdb9ab600d88e38ff9d961924,05fec35fdb9ab600d88e38ff9d9619a5,8dfec35fdb9ab600d88e38ff9d9619a7,45fec35fdb9ab600d88e38ff9d9619a9,81fe8b1fdb9ab600d88e38ff9d961922|c1fec35fdb9ab600d88e38ff9d9619a6,01fec35fdb9ab600d88e38ff9d9619a7,41fe8b1fdb9ab600d88e38ff9d961923,05fec35fdb9ab600d88e38ff9d9619a5,8dfec35fdb9ab600d88e38ff9d9619a7,45fec35fdb9ab600d88e38ff9d9619a9,81fe8b1fdb9ab600d88e38ff9d961922</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>SAC Request - Remove All Access</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>stage</stage_field>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">c1fec35fdb9ab600d88e38ff9d9619a6</start>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>70fe8b1fdb9ab600d88e38ff9d961920</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>gg111240</sys_updated_by>
+        <sys_updated_on>2017-04-29 19:31:33</sys_updated_on>
+        <table>x_shce_systems_acc_sac_req</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="SAC Request - Remove All Access">67ab9b5adb5af24075713c8f9d9619f5</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>SAC Request - Remove All Access</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-25 18:10:06</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>67ab9b5adb5af24075713c8f9d9619f5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SAC Request - Remove All Access</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+        <sys_update_name>wf_workflow_67ab9b5adb5af24075713c8f9d9619f5</sys_update_name>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:49:12</sys_updated_on>
+        <table>x_shce_systems_acc_sac_req</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>89fe8b1fdb9ab600d88e38ff9d961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="SAC Request - Remove All Access">70fe8b1fdb9ab600d88e38ff9d961920</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>10</order>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>0dfe8b1fdb9ab600d88e38ff9d961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="SAC Request - Remove All Access">70fe8b1fdb9ab600d88e38ff9d961920</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>20</order>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>09fe8b1fdb9ab600d88e38ff9d961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="SAC Request - Remove All Access">70fe8b1fdb9ab600d88e38ff9d961920</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>c1fec35fdb9ab600d88e38ff9d9619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="SAC Request - Remove All Access">70fe8b1fdb9ab600d88e38ff9d961920</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c1fec35fdb9ab600d88e38ff9d9619a6"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">c1fec35fdb9ab600d88e38ff9d9619a6</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>89fec35fdb9ab600d88e38ff9d9619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Build SAC Tasks</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>41fe8b1fdb9ab600d88e38ff9d961923</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SAC Request - Remove All Access">70fe8b1fdb9ab600d88e38ff9d961920</workflow_version>
+        <x>104</x>
+        <y>178</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=41fe8b1fdb9ab600d88e38ff9d961923"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>41fe8b1fdb9ab600d88e38ff9d961923</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>45fe8b1fdb9ab600d88e38ff9d961923</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:55</sys_updated_on>
+        <value>var ar = new GlideRecord('x_shce_systems_acc_user_system_access');&#13;
+ar.addQuery('user',current.requested_for);&#13;
+ar.addNullQuery('deprovision_date');&#13;
+ar.addNullQuery('deprovision_request');&#13;
+ar.query();&#13;
+while (ar.next()) {&#13;
+	var sr = new GlideRecord("x_shce_systems_acc_sac_task");&#13;
+	sr.initialize();&#13;
+	sr.short_description = "Systems Access Request - Remove Access " + ar.application.name + ' ' + ar.application.u_environment;&#13;
+	sr.assignment_group = ar.application.support_group;&#13;
+	sr.sac_request = current.sys_id;&#13;
+	sr.parent = current.sys_id;&#13;
+	sr.approval = 'approved';&#13;
+	sr.cmdb_ci = ar.application;&#13;
+	sr.insert();&#13;
+}&#13;
+&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>41fe8b1fdb9ab600d88e38ff9d961923</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>45fe8b1fdb9ab600d88e38ff9d961923</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:55</sys_updated_on>
+        <value>var ar = new GlideRecord('x_shce_systems_acc_user_system_access');&#13;
+ar.addQuery('user',current.requested_for);&#13;
+ar.addNullQuery('deprovision_date');&#13;
+ar.addNullQuery('deprovision_request');&#13;
+ar.query();&#13;
+while (ar.next()) {&#13;
+	var sr = new GlideRecord("x_shce_systems_acc_sac_task");&#13;
+	sr.initialize();&#13;
+	sr.short_description = "Systems Access Request - Remove Access " + ar.application.name + ' ' + ar.application.u_environment;&#13;
+	sr.assignment_group = ar.application.support_group;&#13;
+	sr.sac_request = current.sys_id;&#13;
+	sr.parent = current.sys_id;&#13;
+	sr.approval = 'approved';&#13;
+	sr.cmdb_ci = ar.application;&#13;
+	sr.insert();&#13;
+}&#13;
+&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Build SAC Tasks">41fe8b1fdb9ab600d88e38ff9d961923</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>4dfe8b1fdb9ab600d88e38ff9d961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>16</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Closed Complete</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>45fec35fdb9ab600d88e38ff9d9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SAC Request - Remove All Access">70fe8b1fdb9ab600d88e38ff9d961920</workflow_version>
+        <x>676</x>
+        <y>157</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=45fec35fdb9ab600d88e38ff9d9619a9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45fec35fdb9ab600d88e38ff9d9619a9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>49fec35fdb9ab600d88e38ff9d9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45fec35fdb9ab600d88e38ff9d9619a9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>49fec35fdb9ab600d88e38ff9d9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Closed Complete">45fec35fdb9ab600d88e38ff9d9619a9</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>41fec35fdb9ab600d88e38ff9d9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Task">9f4d1be5c0a8016400043d34ce066316</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>17</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Disable AD Creds and update Lawson stop date</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>c1fe8b1fdb9ab600d88e38ff9d961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SAC Request - Remove All Access">70fe8b1fdb9ab600d88e38ff9d961920</workflow_version>
+        <x>345</x>
+        <y>135</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c1fe8b1fdb9ab600d88e38ff9d961924"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>05fe8b1fdb9ab600d88e38ff9d961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>05fec35fdb9ab600d88e38ff9d9619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+//     task.short_description = current.short_description;&#13;
+&#13;
+task.sac_request = current.sys_id;</value>
+        <variable display_value="">989cdb20c0a800661789b3de0f40214a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>09fe8b1fdb9ab600d88e38ff9d961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">c35e5fc70a0a0ba96248a7091af61d11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>09fec35fdb9ab600d88e38ff9d9619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed32275c0a800665d67078e699a171f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>0dfe8b1fdb9ab600d88e38ff9d961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">8ec7a5dbc0a80066187fa7acf3778705</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>41fe8b1fdb9ab600d88e38ff9d961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e0c980a0a0ba96248a70916cbc62e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>45fe8b1fdb9ab600d88e38ff9d961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecbeba5c0a8006672d676cd11dfa881</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>45fec35fdb9ab600d88e38ff9d9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>x_shce_systems_acc_sac_task</value>
+        <variable display_value="">c35ddb660a0a0ba96248a7095d22925c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>49fe8b1fdb9ab600d88e38ff9d961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e45aa0a0a0ba96248a709f3af7bac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>49fec35fdb9ab600d88e38ff9d9619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>Disable AD Credentials and update Lawson stop date</value>
+        <variable display_value="">c35e176c0a0a0ba96248a7090e235011</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>4dfe8b1fdb9ab600d88e38ff9d961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">8eca692cc0a80066783fefee57143a1a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>81fe8b1fdb9ab600d88e38ff9d961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e03850a0a0ba96248a709503bd0c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>85fe8b1fdb9ab600d88e38ff9d961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e49040a0a0ba96248a709c2b3780b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>89fe8b1fdb9ab600d88e38ff9d961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">989c45c8c0a8006676efffafaa6d7442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>89fec35fdb9ab600d88e38ff9d9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">8eda2a35c0a800660f7aef7be752bf0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>8dfe8b1fdb9ab600d88e38ff9d961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>Disable AD Credentials and update Lawson stop date</value>
+        <variable display_value="">c35e10720a0a0ba96248a709d48d0894</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>8dfec35fdb9ab600d88e38ff9d9619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecf789cc0a8006652fc30aae937c5aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>c1fe8b1fdb9ab600d88e38ff9d961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed08869c0a800662aafc17e09975bb3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>c1fec35fdb9ab600d88e38ff9d9619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec1dbcec0a800662abc511f1daedc1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>c5fe8b1fdb9ab600d88e38ff9d961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dd7a80a0a0ba96248a709f45ae01b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>c9fe8b1fdb9ab600d88e38ff9d961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec61405c0a800661755b30be4ff8fcd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>cdfe8b1fdb9ab600d88e38ff9d961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>c1105ddcdb743a007a01572e5e96195f</value>
+        <variable display_value="">c35e07ae0a0a0ba96248a7097c81317c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>cdfec35fdb9ab600d88e38ff9d9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>Fields</value>
+        <variable display_value="">c35dfee20a0a0ba96248a709f3a40869</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>45fec35fdb9ab600d88e38ff9d9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>x_shce_systems_acc_sac_task</value>
+        <variable display_value="">c35ddb660a0a0ba96248a7095d22925c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>85fe8b1fdb9ab600d88e38ff9d961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e49040a0a0ba96248a709c2b3780b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>09fe8b1fdb9ab600d88e38ff9d961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">c35e5fc70a0a0ba96248a7091af61d11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>c1fec35fdb9ab600d88e38ff9d9619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec1dbcec0a800662abc511f1daedc1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>81fe8b1fdb9ab600d88e38ff9d961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e03850a0a0ba96248a709503bd0c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>c9fe8b1fdb9ab600d88e38ff9d961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec61405c0a800661755b30be4ff8fcd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>0dfe8b1fdb9ab600d88e38ff9d961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">8ec7a5dbc0a80066187fa7acf3778705</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>45fe8b1fdb9ab600d88e38ff9d961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecbeba5c0a8006672d676cd11dfa881</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>8dfec35fdb9ab600d88e38ff9d9619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecf789cc0a8006652fc30aae937c5aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>89fec35fdb9ab600d88e38ff9d9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">8eda2a35c0a800660f7aef7be752bf0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>c1fe8b1fdb9ab600d88e38ff9d961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed08869c0a800662aafc17e09975bb3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>05fe8b1fdb9ab600d88e38ff9d961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>09fec35fdb9ab600d88e38ff9d9619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed32275c0a800665d67078e699a171f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>cdfec35fdb9ab600d88e38ff9d9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>Fields</value>
+        <variable display_value="">c35dfee20a0a0ba96248a709f3a40869</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>cdfe8b1fdb9ab600d88e38ff9d961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>c1105ddcdb743a007a01572e5e96195f</value>
+        <variable display_value="">c35e07ae0a0a0ba96248a7097c81317c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>41fe8b1fdb9ab600d88e38ff9d961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e0c980a0a0ba96248a70916cbc62e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>8dfe8b1fdb9ab600d88e38ff9d961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>Disable AD Credentials and update Lawson stop date</value>
+        <variable display_value="">c35e10720a0a0ba96248a709d48d0894</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>49fec35fdb9ab600d88e38ff9d9619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>Disable AD Credentials and update Lawson stop date</value>
+        <variable display_value="">c35e176c0a0a0ba96248a7090e235011</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>49fe8b1fdb9ab600d88e38ff9d961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e45aa0a0a0ba96248a709f3af7bac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>c5fe8b1fdb9ab600d88e38ff9d961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dd7a80a0a0ba96248a709f45ae01b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>89fe8b1fdb9ab600d88e38ff9d961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">989c45c8c0a8006676efffafaa6d7442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>1710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>05fec35fdb9ab600d88e38ff9d9619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+//     task.short_description = current.short_description;&#13;
+&#13;
+task.sac_request = current.sys_id;</value>
+        <variable display_value="">989cdb20c0a800661789b3de0f40214a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1fe8b1fdb9ab600d88e38ff9d961924</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>4dfe8b1fdb9ab600d88e38ff9d961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">8eca692cc0a80066783fefee57143a1a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Disable AD Creds and update Lawson stop date">c1fe8b1fdb9ab600d88e38ff9d961924</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>8dfec35fdb9ab600d88e38ff9d9619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Completed">89fe8b1fdb9ab600d88e38ff9d961921</stage>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>81fe8b1fdb9ab600d88e38ff9d961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="SAC Request - Remove All Access">70fe8b1fdb9ab600d88e38ff9d961920</workflow_version>
+        <x>711</x>
+        <y>272</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=81fe8b1fdb9ab600d88e38ff9d961922"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Join">7c9a2ba9c0a801650021ada408de0ebd</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>15</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Join</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>05fec35fdb9ab600d88e38ff9d9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SAC Request - Remove All Access">70fe8b1fdb9ab600d88e38ff9d961920</workflow_version>
+        <x>401</x>
+        <y>333</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=05fec35fdb9ab600d88e38ff9d9619a5"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Join">05fec35fdb9ab600d88e38ff9d9619a5</activity>
+        <condition>activity.result == 'complete'</condition>
+        <condition_default display_value="Complete">6dd6ac3e0a6a803f16b5e594347ea01c</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Complete</name>
+        <order>1</order>
+        <short_description>All predecessor activities have transitioned to this activity</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>4dfec35fdb9ab600d88e38ff9d9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Join">05fec35fdb9ab600d88e38ff9d9619a5</activity>
+        <condition>activity.result == 'incomplete'</condition>
+        <condition_default display_value="Incomplete">6dd49ad30a6a803f03a5a18c4085b1c7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Incomplete</name>
+        <order>2</order>
+        <short_description>At least one predecessor activities did not transition to this activity</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>c9fec35fdb9ab600d88e38ff9d9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set SAC Request Short Description</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>01fec35fdb9ab600d88e38ff9d9619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SAC Request - Remove All Access">70fe8b1fdb9ab600d88e38ff9d961920</workflow_version>
+        <x>134</x>
+        <y>17</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=01fec35fdb9ab600d88e38ff9d9619a7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01fec35fdb9ab600d88e38ff9d9619a7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>81fec35fdb9ab600d88e38ff9d9619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>current.short_description = 'Systems Access Request - ' + current.access_type + ' for ' + current.requested_for.getDisplayValue();</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01fec35fdb9ab600d88e38ff9d9619a7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>81fec35fdb9ab600d88e38ff9d9619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>current.short_description = 'Systems Access Request - ' + current.access_type + ' for ' + current.requested_for.getDisplayValue();</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set SAC Request Short Description">01fec35fdb9ab600d88e38ff9d9619a7</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>09fec35fdb9ab600d88e38ff9d9619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for all Task completions</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfillment">0dfe8b1fdb9ab600d88e38ff9d961921</stage>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>8dfec35fdb9ab600d88e38ff9d9619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="SAC Request - Remove All Access">70fe8b1fdb9ab600d88e38ff9d961920</workflow_version>
+        <x>562</x>
+        <y>42</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8dfec35fdb9ab600d88e38ff9d9619a7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8dfec35fdb9ab600d88e38ff9d9619a7</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>81fec35fdb9ab600d88e38ff9d9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+var answer = getTask();&#13;
+&#13;
+function getTask() {&#13;
+	var check = true;&#13;
+	var sac_task = new GlideRecord('x_shce_systems_acc_sac_task');&#13;
+	sac_task.addQuery('active',true); //query for only active records&#13;
+	sac_task.addQuery('sac_request',current.sys_id);&#13;
+	sac_task.query();&#13;
+	if(sac_task.next()){&#13;
+		check = false; //returns true if the task are not yet closed.&#13;
+	}&#13;
+	return check;&#13;
+}&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8dfec35fdb9ab600d88e38ff9d9619a7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>c5fec35fdb9ab600d88e38ff9d9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8dfec35fdb9ab600d88e38ff9d9619a7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>c5fec35fdb9ab600d88e38ff9d9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8dfec35fdb9ab600d88e38ff9d9619a7</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>81fec35fdb9ab600d88e38ff9d9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+var answer = getTask();&#13;
+&#13;
+function getTask() {&#13;
+	var check = true;&#13;
+	var sac_task = new GlideRecord('x_shce_systems_acc_sac_task');&#13;
+	sac_task.addQuery('active',true); //query for only active records&#13;
+	sac_task.addQuery('sac_request',current.sys_id);&#13;
+	sac_task.query();&#13;
+	if(sac_task.next()){&#13;
+		check = false; //returns true if the task are not yet closed.&#13;
+	}&#13;
+	return check;&#13;
+}&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for all Task completions">8dfec35fdb9ab600d88e38ff9d9619a7</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>cdfec35fdb9ab600d88e38ff9d9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">09fec35fdb9ab600d88e38ff9d9619a7</condition>
+        <from display_value="Set SAC Request Short Description">01fec35fdb9ab600d88e38ff9d9619a7</from>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>01fec35fdb9ab600d88e38ff9d9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <to display_value="Disable AD Creds and update Lawson stop date">c1fe8b1fdb9ab600d88e38ff9d961924</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">8dfec35fdb9ab600d88e38ff9d9619a4</condition>
+        <from display_value="Disable AD Creds and update Lawson stop date">c1fe8b1fdb9ab600d88e38ff9d961924</from>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>05fec35fdb9ab600d88e38ff9d9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <to display_value="Join">05fec35fdb9ab600d88e38ff9d9619a5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">89fec35fdb9ab600d88e38ff9d9619a6</condition>
+        <from display_value="Begin">c1fec35fdb9ab600d88e38ff9d9619a6</from>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>09fec35fdb9ab600d88e38ff9d9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <to display_value="Set SAC Request Short Description">01fec35fdb9ab600d88e38ff9d9619a7</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">cdfec35fdb9ab600d88e38ff9d9619a8</condition>
+        <from display_value="Wait for all Task completions">8dfec35fdb9ab600d88e38ff9d9619a7</from>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>0dfec35fdb9ab600d88e38ff9d9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <to display_value="Closed Complete">45fec35fdb9ab600d88e38ff9d9619a9</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">4dfe8b1fdb9ab600d88e38ff9d961923</condition>
+        <from display_value="Build SAC Tasks">41fe8b1fdb9ab600d88e38ff9d961923</from>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>41fec35fdb9ab600d88e38ff9d9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <to display_value="Join">05fec35fdb9ab600d88e38ff9d9619a5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">41fec35fdb9ab600d88e38ff9d9619aa</condition>
+        <from display_value="Closed Complete">45fec35fdb9ab600d88e38ff9d9619a9</from>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>45fec35fdb9ab600d88e38ff9d9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <to display_value="End">81fe8b1fdb9ab600d88e38ff9d961922</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Incomplete">c9fec35fdb9ab600d88e38ff9d9619a5</condition>
+        <from display_value="Join">05fec35fdb9ab600d88e38ff9d9619a5</from>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>49fec35fdb9ab600d88e38ff9d9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <to display_value="Wait for all Task completions">8dfec35fdb9ab600d88e38ff9d9619a7</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">09fec35fdb9ab600d88e38ff9d9619a7</condition>
+        <from display_value="Set SAC Request Short Description">01fec35fdb9ab600d88e38ff9d9619a7</from>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>81fec35fdb9ab600d88e38ff9d9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <to display_value="Build SAC Tasks">41fe8b1fdb9ab600d88e38ff9d961923</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Complete">4dfec35fdb9ab600d88e38ff9d9619a5</condition>
+        <from display_value="Join">05fec35fdb9ab600d88e38ff9d9619a5</from>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>c5fec35fdb9ab600d88e38ff9d9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <to display_value="Wait for all Task completions">8dfec35fdb9ab600d88e38ff9d9619a7</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-28 19:48:24</sys_created_on>
+        <sys_id>34fe8b1fdb9ab600d88e38ff9d961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-28 19:48:24</sys_updated_on>
+        <workflow_version display_value="SAC Request - Remove All Access">70fe8b1fdb9ab600d88e38ff9d961920</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=67ab9b5adb5af24075713c8f9d9619f5^sys_id!=70fe8b1fdb9ab600d88e38ff9d961920">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

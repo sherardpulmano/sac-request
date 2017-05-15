@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Systems Access Control Task" max_length="40" name="x_shce_systems_acc_sac_task" sizeclass="217" type="collection">
+        <element label="SAC Request" max_length="32" name="sac_request" reference="x_shce_systems_acc_sac_req" type="reference"/>
+    </element>
+</database>

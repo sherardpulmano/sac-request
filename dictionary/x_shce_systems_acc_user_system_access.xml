@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="User System Access" max_length="40" name="x_shce_systems_acc_user_system_access" type="collection">
+        <element display="true" label="Application" max_length="32" name="application" reference="cmdb_ci_appl" type="reference"/>
+        <element label="Deprovision Date" max_length="40" name="deprovision_date" type="glide_date"/>
+        <element label="Deprovision Request" max_length="32" name="deprovision_request" reference="x_shce_systems_acc_sac_req" type="reference"/>
+        <element label="Provision Date" max_length="40" name="provision_date" type="glide_date"/>
+        <element label="Provision Request" max_length="32" name="provision_request" reference="x_shce_systems_acc_sac_req" type="reference"/>
+        <element label="SAC Request" max_length="32" name="sac_request" reference="x_shce_systems_acc_sac_req" type="reference"/>
+        <element choice="1" label="Source" max_length="40" name="source" type="choice">
+            <choice>
+                <element label="Import" sequence="0" value="Import"/>
+                <element label="Request" sequence="1" value="Request"/>
+            </choice>
+        </element>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="sac_request"/>
+        </index>
+        <index name="index2">
+            <element name="deprovision_request"/>
+        </index>
+        <index name="index3">
+            <element name="application"/>
+        </index>
+        <index name="index4">
+            <element name="user"/>
+        </index>
+        <index name="index5">
+            <element name="provision_request"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="sc_mobile_layout" relationship="" sys_domain="global" table="sc_mobile_layout_cats_mtom" version="2" view="">
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sc_mobile_layout_cats_mtom</name>
+            <parent>sc_mobile_layout</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-03-16 14:21:38</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fc768e5dbe1324075713c8f9d96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sc_mobile_layout_cats_mtom</sys_name>
+            <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+            <sys_update_name>sys_ui_list_sc_mobile_layout_cats_mtom_sc_mobile_layout_null</sys_update_name>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-03-16 14:21:38</sys_updated_on>
+            <sys_user display_value="Sherard Pulmano">8daf0900db332600edafd92b5e9619ad</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

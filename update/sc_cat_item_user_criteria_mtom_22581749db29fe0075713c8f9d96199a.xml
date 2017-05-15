@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Systems Access Control Request">758d2904db55b600d88e38ff9d961906</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-03-15 13:56:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>22581749db29fe0075713c8f9d96199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Systems Access Control Request.Managers</sys_name>
+        <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_22581749db29fe0075713c8f9d96199a</sys_update_name>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-03-15 13:56:04</sys_updated_on>
+        <user_criteria display_value="Managers">84071309db29fe0075713c8f9d9619fa</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

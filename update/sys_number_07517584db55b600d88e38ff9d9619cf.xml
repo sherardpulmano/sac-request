@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_shce_systems_acc_sac_req">x_shce_systems_acc_sac_req</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>SAC</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-02-27 17:36:27</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>07517584db55b600d88e38ff9d9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SAC</sys_name>
+        <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+        <sys_update_name>sys_number_07517584db55b600d88e38ff9d9619cf</sys_update_name>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-02-27 17:36:27</sys_updated_on>
+    </sys_number>
+</record_update>

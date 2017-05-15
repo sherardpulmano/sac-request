@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Systems Access Control Request">758d2904db55b600d88e38ff9d961906</catalog_item>
+        <catalog_variable>IO:cf8f1434db9df60075713c8f9d96198c</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-03-01 19:37:37</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1230a834db9df60075713c8f9d961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>transfer</sys_name>
+        <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_1230a834db9df60075713c8f9d961931</sys_update_name>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-03-01 19:37:37</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Transfer to Whom">a4206834db9df60075713c8f9d961919</ui_policy>
+        <variable>transfer</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

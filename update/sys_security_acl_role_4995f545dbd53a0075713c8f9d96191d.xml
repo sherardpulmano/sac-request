@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-03-02 20:28:59</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4995f545dbd53a0075713c8f9d96191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_shce_systems_acc.sac_user</sys_name>
+        <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+        <sys_security_acl display_value="x_shce_systems_acc_sac_req.*">1d757d45dbd53a0075713c8f9d96195d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4995f545dbd53a0075713c8f9d96191d</sys_update_name>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-03-02 20:28:59</sys_updated_on>
+        <sys_user_role display_value="x_shce_systems_acc.sac_user" name="x_shce_systems_acc.sac_user">fe363448dbd1b600d88e38ff9d961954</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

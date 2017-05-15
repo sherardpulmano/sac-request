@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="cmdb_ci" label="Application" language="en" table="x_shce_systems_acc_sac_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>cmdb_ci</element>
+            <help/>
+            <hint/>
+            <label>Application</label>
+            <language>en</language>
+            <name>x_shce_systems_acc_sac_task</name>
+            <plural>Applications</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-02-27 20:44:40</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>125c9248db95b600d88e38ff9d9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Application</sys_name>
+            <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+            <sys_update_name>sys_documentation_x_shce_systems_acc_sac_task_cmdb_ci_en</sys_update_name>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-02-27 20:44:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

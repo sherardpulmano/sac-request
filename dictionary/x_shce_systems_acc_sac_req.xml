@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Systems Access Control Request" max_length="40" name="x_shce_systems_acc_sac_req" sizeclass="56" type="collection">
+        <element choice="1" label="Access Type" max_length="40" name="access_type" read_only="true" type="choice">
+            <choice>
+                <element label="Add/Remove Employee Systems Access" sequence="0" value="Add/Remove Employee Systems Access"/>
+                <element label="Remove all Employee Systems Access" sequence="1" value="Remove all Employee Systems Access"/>
+                <element label="Modify Non-Employee Stop Date" sequence="2" value="Modify Non-Employee Stop Date"/>
+                <element label="Add/Remove Non-Employee Systems Access" sequence="5" value="Add/Remove Non-Employee Systems Access"/>
+            </choice>
+        </element>
+        <element label="Applications" max_length="4000" name="applications" reference="cmdb_ci_appl" type="glide_list"/>
+        <element label="Application List" max_length="10000" name="application_list" read_only="true" type="string"/>
+        <element label="Stop Date Change" max_length="40" name="cutoff_date_change" read_only="true" type="glide_date"/>
+        <element label="Requested For" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element choice="1" label="Soarian Role" max_length="32" name="sorian_roles" read_only="true" reference="x_shce_systems_acc_soarian_roles" type="reference">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Soarian Signature" max_length="100" name="sorian_signature" read_only="true" type="string"/>
+        <element label="Stage" max_length="80" name="stage" read_only="true" type="workflow"/>
+        <element label="Transfer to Whom" max_length="32" name="transfer" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Effective Date of Changes" max_length="40" name="u_effective_date_changes" read_only="true" type="glide_date"/>
+        <element label="Effective Date of System Access Removal" max_length="40" name="u_effective_date_termination" read_only="true" type="glide_date"/>
+        <element label="Revised Stop Date" max_length="40" name="u_revised_stop_date" read_only="true" type="glide_date"/>
+    </element>
+</database>

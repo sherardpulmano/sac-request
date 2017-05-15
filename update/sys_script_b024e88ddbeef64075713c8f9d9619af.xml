@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_shce_systems_acc_sac_task</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_shce_systems_acc_sac_task">cmdb_ci=c3cb74c3db1272c07a01572e5e9619b3^stateCHANGESTO3^EQ<item display_table="cmdb_ci" display_value="Active Directory" endquery="false" field="cmdb_ci" goto="false" newquery="false" operator="=" or="false" value="c3cb74c3db1272c07a01572e5e9619b3"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Set Task State to Open</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	var gr = new GlideRecord('x_shce_systems_acc_sac_task');
+	gr.addQuery('sac_request', current.sac_request.sys_id);
+	gr.addQuery('cmdb_ci.name', 'IN', 'Soarian Clinicals,3M HDM with Worklists,3M HDM without Worklists,Soarian Financials,Soarian Document Management');
+	gr.addQuery('state', -5);
+	gr.query();
+	
+	while (gr.next()) {
+		
+		gr.state = 1;
+		gr.update();
+		
+	}
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>npatel</sys_created_by>
+        <sys_created_on>2017-05-03 17:51:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b024e88ddbeef64075713c8f9d9619af</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Set Task State to Open</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+        <sys_update_name>sys_script_b024e88ddbeef64075713c8f9d9619af</sys_update_name>
+        <sys_updated_by>npatel</sys_updated_by>
+        <sys_updated_on>2017-05-03 22:18:59</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=b024e88ddbeef64075713c8f9d9619af"/>
+</record_update>

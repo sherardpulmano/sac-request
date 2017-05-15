@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_shce_systems_acc.AJAXgetApplicationBundle</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AJAXgetApplicationBundle</name>
+        <script><![CDATA[var AJAXgetApplicationBundle = Class.create();
+AJAXgetApplicationBundle.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getBundle: function() {
+		var usr = this.getParameter('sysparm_userid');
+		//gs.info('alert: ' + usr);
+		var apps = [];
+		var gr = new GlideRecord("sys_user");
+		gr.addQuery("sys_id", usr);
+		gr.query();
+		if (gr.next()) {
+			apps = gr.u_job_code.u_sac_applications;
+		}
+		//gs.info("u_sac_applications=" + apps);
+		return apps.toString();
+	},
+	type: 'AJAXgetApplicationBundle'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-03-17 17:24:21</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>59a91e7ddb253240d88e38ff9d9619f0</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>AJAXgetApplicationBundle</sys_name>
+        <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+        <sys_update_name>sys_script_include_59a91e7ddb253240d88e38ff9d9619f0</sys_update_name>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-03-20 15:29:59</sys_updated_on>
+    </sys_script_include>
+</record_update>

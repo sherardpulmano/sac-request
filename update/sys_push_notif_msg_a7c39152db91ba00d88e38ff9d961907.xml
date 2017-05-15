@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="INSERT_OR_UPDATE">
+        <message_string>SAC Request ${number} has been assigned to group ${assignment_group}</message_string>
+        <name>SAC Request assigned to my group</name>
+        <push_app display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</push_app>
+        <push_message_content display_value="Generic Record Payload">4f9c2ec0d72102006b0f8ebc5e610327</push_message_content>
+        <subject/>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-03-06 15:14:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a7c39152db91ba00d88e38ff9d961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SAC Request assigned to my group</sys_name>
+        <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+        <sys_update_name>sys_push_notif_msg_a7c39152db91ba00d88e38ff9d961907</sys_update_name>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-03-06 15:14:10</sys_updated_on>
+        <table>x_shce_systems_acc_sac_req</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+</record_update>

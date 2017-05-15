@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_shce_systems_acc.AJAXgetApplicationAccess</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AJAXgetApplicationAccess</name>
+        <script><![CDATA[var AJAXgetApplicationAccess = Class.create();
+AJAXgetApplicationAccess.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getAccess: function() {
+		var usr = this.getParameter('sysparm_userid');
+		//gs.info('alert: ' + usr);
+		//var apps = '';
+		var apps = [];
+		var gr = new GlideRecord("x_shce_systems_acc_user_system_access");
+		gr.addQuery("user", usr);
+		//gr.addNullQuery('deprovision_date');
+		gr.addNullQuery('deprovision_request');
+		gr.query();
+		while (gr.next()) {
+		
+			if (apps.indexOf(gr.application) == -1) {
+			apps.push(gr.application.sys_id.toString());
+			}
+				
+		}
+		//gs.info('applications ' + apps);
+		return apps.toString();
+	},
+	type: 'AJAXgetApplicationAccess'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>spulmano</sys_created_by>
+        <sys_created_on>2017-04-25 19:54:16</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>25833f16db9af24075713c8f9d9619de</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>AJAXgetApplicationAccess</sys_name>
+        <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+        <sys_update_name>sys_script_include_25833f16db9af24075713c8f9d9619de</sys_update_name>
+        <sys_updated_by>spulmano</sys_updated_by>
+        <sys_updated_on>2017-04-27 20:57:58</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_effective_date_termination" label="Effective Date of System Access Removal" language="en" table="x_shce_systems_acc_sac_req">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_effective_date_termination</element>
+            <help/>
+            <hint/>
+            <label>Effective Date of System Access Removal</label>
+            <language>en</language>
+            <name>x_shce_systems_acc_sac_req</name>
+            <plural>Effective Date of System Access Removals</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>npatel</sys_created_by>
+            <sys_created_on>2017-04-21 21:41:20</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>b6a5270ddb96724075713c8f9d961970</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Effective Date of System Access Removal</sys_name>
+            <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+            <sys_update_name>sys_documentation_x_shce_systems_acc_sac_req_u_effective_date_termination_en</sys_update_name>
+            <sys_updated_by>npatel</sys_updated_by>
+            <sys_updated_on>2017-04-25 15:54:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

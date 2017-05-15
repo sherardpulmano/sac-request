@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="u_floor" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_floor_name</element>
+            <list_id display_value="u_floor" element="NULL" name="u_floor" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f76a13f6dbd1fa00d88e38ff9d9619d3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-03-08 14:18:49</sys_created_on>
+            <sys_id>736a13f6dbd1fa00d88e38ff9d9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-03-08 14:18:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_location</element>
+            <list_id display_value="u_floor" element="NULL" name="u_floor" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f76a13f6dbd1fa00d88e38ff9d9619d3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-03-08 14:18:49</sys_created_on>
+            <sys_id>f76a13f6dbd1fa00d88e38ff9d9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-03-08 14:18:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_floor</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>spulmano</sys_created_by>
+            <sys_created_on>2017-04-27 14:57:18</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8fb2c9cbdb9e7600d88e38ff9d9619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_floor</sys_name>
+            <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
+            <sys_update_name>sys_ui_list_u_floor_null</sys_update_name>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-04-27 14:57:18</sys_updated_on>
+            <sys_user display_value="Sherard Pulmano">8daf0900db332600edafd92b5e9619ad</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
