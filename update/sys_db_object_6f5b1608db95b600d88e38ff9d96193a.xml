@@ -17,11 +17,13 @@
         <number_ref display_value="SACT">3ccb5a08db95b600d88e38ff9d961994</number_ref>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Task" name="task">bae25963db132200edafd92b5e961980</super_class>
+        <super_class display_value="Task" name="task">b57ed3840f0032009a954e9ce1050ed0</super_class>
+        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-02-27 20:41:42</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>6f5b1608db95b600d88e38ff9d96193a</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Systems Access Control Task</sys_name>

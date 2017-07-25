@@ -13,7 +13,7 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-02-27 17:35:31</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>dd213584db55b600d88e38ff9d9619a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_shce_systems_acc_sac_req</sys_name>

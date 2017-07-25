@@ -7,7 +7,7 @@
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-03-03 12:40:23</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>12e35d55db5d3a0075713c8f9d9619e0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>provider_id</sys_name>

@@ -25,7 +25,7 @@
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-03-15 17:12:57</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d2554495dba9fe0075713c8f9d961941</sys_id>

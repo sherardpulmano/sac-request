@@ -18,10 +18,12 @@
         <provider_class/>
         <read_access>true</read_access>
         <super_class/>
+        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-03-01 14:04:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2bc39fecdbd9f60075713c8f9d96199a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Soarian Roles</sys_name>

@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>spulmano</sys_created_by>
             <sys_created_on>2017-02-27 20:46:29</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>a6dcd648db95b600d88e38ff9d96196c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>SAC Request</sys_name>

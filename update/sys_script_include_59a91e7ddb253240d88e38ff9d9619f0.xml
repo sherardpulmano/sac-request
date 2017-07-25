@@ -28,7 +28,7 @@ AJAXgetApplicationBundle.prototype = Object.extendsObject(global.AbstractAjaxPro
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-03-17 17:24:21</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>59a91e7ddb253240d88e38ff9d9619f0</sys_id>
         <sys_mod_count>13</sys_mod_count>
         <sys_name>AJAXgetApplicationBundle</sys_name>

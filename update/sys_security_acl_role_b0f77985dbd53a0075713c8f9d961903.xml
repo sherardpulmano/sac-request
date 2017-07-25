@@ -4,7 +4,7 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-03-02 20:39:22</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b0f77985dbd53a0075713c8f9d961903</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_shce_systems_acc_sac_task.x_shce_systems_acc.sac_admin</sys_name>

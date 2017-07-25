@@ -9,7 +9,7 @@
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>npatel</sys_created_by>
         <sys_created_on>2017-04-25 00:31:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>f2696b4adb92f24075713c8f9d9619ea</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>soarian</sys_name>

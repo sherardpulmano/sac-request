@@ -11,7 +11,7 @@
         <sys_class_name>sys_script_email</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-03-06 13:46:42</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e9cffc96db51ba00d88e38ff9d9619af</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>sac_request_assigned_to</sys_name>

@@ -13,10 +13,10 @@
         </condition>
         <condition_type>run_match</condition_type>
         <description/>
-        <expected_sequences>6da89c59dba2ba00d88e38ff9d961919,a9a85499dba2ba00d88e38ff9d961931,a9a85499dba2ba00d88e38ff9d961930|6da89c59dba2ba00d88e38ff9d961919,21a89c59dba2ba00d88e38ff9d96191b,a9a85499dba2ba00d88e38ff9d961930|a9a85499dba2ba00d88e38ff9d961930</expected_sequences>
+        <expected_sequences>6da89c59dba2ba00d88e38ff9d961919,a9a85499dba2ba00d88e38ff9d961931,21a89c59dba2ba00d88e38ff9d96191b,a9a85499dba2ba00d88e38ff9d961930,6da85499dba2ba00d88e38ff9d96192e,eda85499dba2ba00d88e38ff9d96192f</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>6da89c59dba2ba00d88e38ff9d961919,a9a85499dba2ba00d88e38ff9d961931,a9a85499dba2ba00d88e38ff9d961930,6da85499dba2ba00d88e38ff9d96192e,eda85499dba2ba00d88e38ff9d96192f|6da89c59dba2ba00d88e38ff9d961919,21a89c59dba2ba00d88e38ff9d96191b,a9a85499dba2ba00d88e38ff9d961930,6da85499dba2ba00d88e38ff9d96192e,eda85499dba2ba00d88e38ff9d96192f</full_sequences>
+        <full_sequences>6da89c59dba2ba00d88e38ff9d961919,a9a85499dba2ba00d88e38ff9d961931,21a89c59dba2ba00d88e38ff9d96191b,a9a85499dba2ba00d88e38ff9d961930,6da85499dba2ba00d88e38ff9d96192e,eda85499dba2ba00d88e38ff9d96192f</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>SAC Request - Modify Stop Date</name>
@@ -35,9 +35,9 @@
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-05-04 11:39:46</sys_created_on>
         <sys_id>2da89c59dba2ba00d88e38ff9d961917</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>spulmano</sys_updated_by>
-        <sys_updated_on>2017-05-04 11:42:57</sys_updated_on>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-06-27 16:51:54</sys_updated_on>
         <table>x_shce_systems_acc_sac_req</table>
         <timezone/>
         <validated>false</validated>
@@ -51,7 +51,7 @@
         <sys_class_name>wf_workflow</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-03-15 17:17:40</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f77640d5dba9fe0075713c8f9d96193a</sys_id>

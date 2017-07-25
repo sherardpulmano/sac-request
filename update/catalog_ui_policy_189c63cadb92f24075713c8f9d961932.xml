@@ -5,6 +5,7 @@
         <applies_catalog>true</applies_catalog>
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <catalog_conditions>IO:0ad37514db1db600d88e38ff9d961954=Remove all Employee Systems Access^IO:64a3664cdb95b600d88e38ff9d961964ISNOTEMPTY^EQ</catalog_conditions>
         <catalog_item display_value="Systems Access Control Request">758d2904db55b600d88e38ff9d961906</catalog_item>
@@ -25,7 +26,7 @@
         <sys_class_name>catalog_ui_policy</sys_class_name>
         <sys_created_by>npatel</sys_created_by>
         <sys_created_on>2017-04-25 00:45:56</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>189c63cadb92f24075713c8f9d961932</sys_id>

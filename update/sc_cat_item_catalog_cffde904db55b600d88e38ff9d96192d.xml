@@ -6,7 +6,7 @@
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-02-27 17:21:42</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>cffde904db55b600d88e38ff9d96192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Service Catalog.Systems Access Control Request</sys_name>

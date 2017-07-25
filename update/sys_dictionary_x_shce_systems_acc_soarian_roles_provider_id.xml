@@ -47,8 +47,8 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-03-02 14:45:44</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>2b072845dbddf600d88e38ff9d961938</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a81df8f10f3672009a954e9ce1050e2c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Provider ID</sys_name>
         <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
@@ -56,8 +56,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
         <sys_update_name>sys_dictionary_x_shce_systems_acc_soarian_roles_provider_id</sys_update_name>
-        <sys_updated_by>spulmano</sys_updated_by>
-        <sys_updated_on>2017-03-02 14:45:44</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-05-18 13:51:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

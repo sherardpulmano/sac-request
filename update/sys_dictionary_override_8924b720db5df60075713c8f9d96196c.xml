@@ -22,7 +22,7 @@
         <sys_class_name>sys_dictionary_override</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-03-01 16:24:57</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8924b720db5df60075713c8f9d96196c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>location</sys_name>

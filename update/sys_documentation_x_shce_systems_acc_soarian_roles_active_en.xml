@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>spulmano</sys_created_by>
             <sys_created_on>2017-03-01 14:04:48</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>46141320db1df60075713c8f9d9619b9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Active</sys_name>

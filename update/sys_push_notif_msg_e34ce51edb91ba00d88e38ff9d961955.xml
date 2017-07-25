@@ -9,7 +9,7 @@
         <sys_class_name>sys_push_notif_msg</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-03-06 17:01:28</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e34ce51edb91ba00d88e38ff9d961955</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>SAC Task assigned to my group</sys_name>

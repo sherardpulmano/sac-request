@@ -11,7 +11,7 @@
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-03-20 15:14:39</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>044a5d7adba9b24075713c8f9d96191e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_shce_systems_acc.glide.script.block.client.globals</sys_name>

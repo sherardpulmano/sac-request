@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Systems Access Control Request" max_length="40" name="x_shce_systems_acc_sac_req" sizeclass="56" type="collection">
+    <element audit="true" extends="task" label="Systems Access Control Request" max_length="40" name="x_shce_systems_acc_sac_req" sizeclass="1" type="collection">
         <element choice="1" label="Access Type" max_length="40" name="access_type" read_only="true" type="choice">
             <choice>
                 <element label="Add/Remove Employee Systems Access" sequence="0" value="Add/Remove Employee Systems Access"/>

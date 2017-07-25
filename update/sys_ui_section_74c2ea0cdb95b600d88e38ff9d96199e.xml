@@ -233,11 +233,11 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>spulmano</sys_created_by>
             <sys_created_on>2017-02-27 21:12:18</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>74c2ea0cdb95b600d88e38ff9d96199e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_name>x_shce_systems_acc_sac_req</sys_name>
             <sys_overrides/>
             <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
@@ -246,7 +246,7 @@
             <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
             <sys_update_name>sys_ui_section_74c2ea0cdb95b600d88e38ff9d96199e</sys_update_name>
             <sys_updated_by>spulmano</sys_updated_by>
-            <sys_updated_on>2017-02-27 21:12:18</sys_updated_on>
+            <sys_updated_on>2017-05-19 12:09:11</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="My Request" name="my_request">7d03a14d47812200e0ef563dbb9a7171</view>

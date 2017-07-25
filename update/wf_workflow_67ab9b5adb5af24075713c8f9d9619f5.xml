@@ -13,10 +13,10 @@
         </condition>
         <condition_type>run_match</condition_type>
         <description/>
-        <expected_sequences>c1fec35fdb9ab600d88e38ff9d9619a6,01fec35fdb9ab600d88e38ff9d9619a7,c1fe8b1fdb9ab600d88e38ff9d961924,05fec35fdb9ab600d88e38ff9d9619a5|c1fec35fdb9ab600d88e38ff9d9619a6,01fec35fdb9ab600d88e38ff9d9619a7,41fe8b1fdb9ab600d88e38ff9d961923,05fec35fdb9ab600d88e38ff9d9619a5|05fec35fdb9ab600d88e38ff9d9619a5,8dfec35fdb9ab600d88e38ff9d9619a7,45fec35fdb9ab600d88e38ff9d9619a9,81fe8b1fdb9ab600d88e38ff9d961922</expected_sequences>
+        <expected_sequences>c1fec35fdb9ab600d88e38ff9d9619a6,01fec35fdb9ab600d88e38ff9d9619a7,c1fe8b1fdb9ab600d88e38ff9d961924,41fe8b1fdb9ab600d88e38ff9d961923,05fec35fdb9ab600d88e38ff9d9619a5,8dfec35fdb9ab600d88e38ff9d9619a7,45fec35fdb9ab600d88e38ff9d9619a9,81fe8b1fdb9ab600d88e38ff9d961922</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>c1fec35fdb9ab600d88e38ff9d9619a6,01fec35fdb9ab600d88e38ff9d9619a7,c1fe8b1fdb9ab600d88e38ff9d961924,05fec35fdb9ab600d88e38ff9d9619a5,8dfec35fdb9ab600d88e38ff9d9619a7,45fec35fdb9ab600d88e38ff9d9619a9,81fe8b1fdb9ab600d88e38ff9d961922|c1fec35fdb9ab600d88e38ff9d9619a6,01fec35fdb9ab600d88e38ff9d9619a7,41fe8b1fdb9ab600d88e38ff9d961923,05fec35fdb9ab600d88e38ff9d9619a5,8dfec35fdb9ab600d88e38ff9d9619a7,45fec35fdb9ab600d88e38ff9d9619a9,81fe8b1fdb9ab600d88e38ff9d961922</full_sequences>
+        <full_sequences>c1fec35fdb9ab600d88e38ff9d9619a6,01fec35fdb9ab600d88e38ff9d9619a7,c1fe8b1fdb9ab600d88e38ff9d961924,41fe8b1fdb9ab600d88e38ff9d961923,05fec35fdb9ab600d88e38ff9d9619a5,8dfec35fdb9ab600d88e38ff9d9619a7,45fec35fdb9ab600d88e38ff9d9619a9,81fe8b1fdb9ab600d88e38ff9d961922</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>SAC Request - Remove All Access</name>
@@ -35,9 +35,9 @@
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-04-28 19:48:24</sys_created_on>
         <sys_id>70fe8b1fdb9ab600d88e38ff9d961920</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>gg111240</sys_updated_by>
-        <sys_updated_on>2017-04-29 19:31:33</sys_updated_on>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-06-27 16:51:59</sys_updated_on>
         <table>x_shce_systems_acc_sac_req</table>
         <timezone/>
         <validated>true</validated>
@@ -51,7 +51,7 @@
         <sys_class_name>wf_workflow</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-04-25 18:10:06</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>67ab9b5adb5af24075713c8f9d9619f5</sys_id>

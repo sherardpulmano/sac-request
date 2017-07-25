@@ -14,20 +14,20 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>npatel</sys_created_by>
             <sys_created_on>2017-04-27 20:14:24</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7f4b02cfdbda364075713c8f9d961957</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_name>sys_update_version</sys_name>
             <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
             <sys_update_name>sys_ui_list_catalog_script_client_67bdac52374010008687ddb1967334ee_null</sys_update_name>
-            <sys_updated_by>npatel</sys_updated_by>
-            <sys_updated_on>2017-04-27 20:14:24</sys_updated_on>
-            <sys_user display_value="Neal Patel">32be4500db332600edafd92b5e961924</sys_user>
+            <sys_updated_by>spulmano</sys_updated_by>
+            <sys_updated_on>2017-05-19 12:09:11</sys_updated_on>
+            <sys_user display_value="">32be4500db332600edafd92b5e961924</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

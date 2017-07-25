@@ -6,6 +6,7 @@
         <applies_extended>false</applies_extended>
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Systems Access Control Request">758d2904db55b600d88e38ff9d961906</cat_item>
         <cat_variable>IO:64a3664cdb95b600d88e38ff9d961964</cat_variable>
@@ -92,7 +93,7 @@ function setAccess(response) {
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-04-25 20:01:18</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>64257756db9af24075713c8f9d9619db</sys_id>

@@ -6,6 +6,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
+        <category display_value="Systems Access Control Request">c92fdb220fa332009a954e9ce1050e90</category>
         <collection>x_shce_systems_acc_sac_req</collection>
         <condition table="x_shce_systems_acc_sac_req">assigned_toISEMPTY^assignment_groupVALCHANGES^assignment_groupISNOTEMPTY^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
             <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
@@ -49,11 +50,11 @@
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-03-06 13:44:59</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>55ae70d6db51ba00d88e38ff9d961902</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>SAC Request assigned to my group</sys_name>
         <sys_overrides/>
         <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
@@ -61,8 +62,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
         <sys_update_name>sysevent_email_action_55ae70d6db51ba00d88e38ff9d961902</sys_update_name>
-        <sys_updated_by>spulmano</sys_updated_by>
-        <sys_updated_on>2017-03-06 15:26:45</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-06-27 16:22:12</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

@@ -35,11 +35,12 @@
         <order>1000</order>
         <ordered_item_link/>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=758d2904db55b600d88e38ff9d961906&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=758d2904db55b600d88e38ff9d961906&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
-        <roles/>
+        <redirect_url/>
+        <roles>snc_internal</roles>
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
@@ -50,7 +51,7 @@
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-02-27 17:21:42</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>758d2904db55b600d88e38ff9d961906</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name>Systems Access Control Request</sys_name>

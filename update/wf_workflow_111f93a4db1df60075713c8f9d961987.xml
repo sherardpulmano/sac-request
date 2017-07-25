@@ -13,10 +13,10 @@
         </condition>
         <condition_type>run_match</condition_type>
         <description/>
-        <expected_sequences>adf9d809dbeef64075713c8f9d9619c0,adf9d809dbeef64075713c8f9d9619bf,adf9d809dbeef64075713c8f9d9619ae,91f9d809dbeef64075713c8f9d961996,a1f9d809dbeef64075713c8f9d9619d4,21f9d809dbeef64075713c8f9d96199e|adf9d809dbeef64075713c8f9d9619c0,adf9d809dbeef64075713c8f9d9619bf,29f9d809dbeef64075713c8f9d9619ca,59f9d4c5dbeef64075713c8f9d9619de,edf9d809dbeef64075713c8f9d9619a6,61f9d809dbeef64075713c8f9d96199f,a9f9d809dbeef64075713c8f9d9619c2,21f9d809dbeef64075713c8f9d9619dc,29f9d809dbeef64075713c8f9d9619e5,21f9d809dbeef64075713c8f9d96199e|adf9d809dbeef64075713c8f9d9619c0,adf9d809dbeef64075713c8f9d9619bf,adf9d809dbeef64075713c8f9d9619b0,21f9d809dbeef64075713c8f9d96199e|21f9d809dbeef64075713c8f9d96199e,edf9d809dbeef64075713c8f9d9619e3,e1f9d809dbeef64075713c8f9d9619b2,6df9d809dbeef64075713c8f9d9619c1</expected_sequences>
+        <expected_sequences>adf9d809dbeef64075713c8f9d9619c0,adf9d809dbeef64075713c8f9d9619bf,adf9d809dbeef64075713c8f9d9619ae,29f9d809dbeef64075713c8f9d9619ca,adf9d809dbeef64075713c8f9d9619b0,91f9d809dbeef64075713c8f9d961996,59f9d4c5dbeef64075713c8f9d9619de,21f9d809dbeef64075713c8f9d96199e,a1f9d809dbeef64075713c8f9d9619d4,edf9d809dbeef64075713c8f9d9619a6,edf9d809dbeef64075713c8f9d9619e3,61f9d809dbeef64075713c8f9d96199f,e1f9d809dbeef64075713c8f9d9619b2,a9f9d809dbeef64075713c8f9d9619c2,6df9d809dbeef64075713c8f9d9619c1,21f9d809dbeef64075713c8f9d9619dc,29f9d809dbeef64075713c8f9d9619e5</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>adf9d809dbeef64075713c8f9d9619c0,adf9d809dbeef64075713c8f9d9619bf,adf9d809dbeef64075713c8f9d9619ae,91f9d809dbeef64075713c8f9d961996,a1f9d809dbeef64075713c8f9d9619d4,21f9d809dbeef64075713c8f9d96199e,edf9d809dbeef64075713c8f9d9619e3,e1f9d809dbeef64075713c8f9d9619b2,6df9d809dbeef64075713c8f9d9619c1|adf9d809dbeef64075713c8f9d9619c0,adf9d809dbeef64075713c8f9d9619bf,adf9d809dbeef64075713c8f9d9619ae,11f9d809dbeef64075713c8f9d96198e,25f9d809dbeef64075713c8f9d9619cc,21f9d809dbeef64075713c8f9d96199e,edf9d809dbeef64075713c8f9d9619e3,e1f9d809dbeef64075713c8f9d9619b2,6df9d809dbeef64075713c8f9d9619c1|adf9d809dbeef64075713c8f9d9619c0,adf9d809dbeef64075713c8f9d9619bf,29f9d809dbeef64075713c8f9d9619ca,21f9d809dbeef64075713c8f9d96199e,edf9d809dbeef64075713c8f9d9619e3,e1f9d809dbeef64075713c8f9d9619b2,6df9d809dbeef64075713c8f9d9619c1|adf9d809dbeef64075713c8f9d9619c0,adf9d809dbeef64075713c8f9d9619bf,29f9d809dbeef64075713c8f9d9619ca,59f9d4c5dbeef64075713c8f9d9619de,edf9d809dbeef64075713c8f9d9619a6,61f9d809dbeef64075713c8f9d96199f,a9f9d809dbeef64075713c8f9d9619c2,21f9d809dbeef64075713c8f9d9619dc,29f9d809dbeef64075713c8f9d9619e5,21f9d809dbeef64075713c8f9d96199e,edf9d809dbeef64075713c8f9d9619e3,e1f9d809dbeef64075713c8f9d9619b2,6df9d809dbeef64075713c8f9d9619c1|adf9d809dbeef64075713c8f9d9619c0,adf9d809dbeef64075713c8f9d9619bf,adf9d809dbeef64075713c8f9d9619b0,21f9d809dbeef64075713c8f9d96199e,edf9d809dbeef64075713c8f9d9619e3,e1f9d809dbeef64075713c8f9d9619b2,6df9d809dbeef64075713c8f9d9619c1</full_sequences>
+        <full_sequences>adf9d809dbeef64075713c8f9d9619c0,adf9d809dbeef64075713c8f9d9619bf,adf9d809dbeef64075713c8f9d9619ae,29f9d809dbeef64075713c8f9d9619ca,adf9d809dbeef64075713c8f9d9619b0,91f9d809dbeef64075713c8f9d961996,11f9d809dbeef64075713c8f9d96198e,59f9d4c5dbeef64075713c8f9d9619de,21f9d809dbeef64075713c8f9d96199e,a1f9d809dbeef64075713c8f9d9619d4,25f9d809dbeef64075713c8f9d9619cc,edf9d809dbeef64075713c8f9d9619a6,edf9d809dbeef64075713c8f9d9619e3,61f9d809dbeef64075713c8f9d96199f,e1f9d809dbeef64075713c8f9d9619b2,a9f9d809dbeef64075713c8f9d9619c2,6df9d809dbeef64075713c8f9d9619c1,21f9d809dbeef64075713c8f9d9619dc,29f9d809dbeef64075713c8f9d9619e5</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>SAC Request - Add/Remove</name>
@@ -35,9 +35,9 @@
         <sys_created_by>npatel</sys_created_by>
         <sys_created_on>2017-05-03 17:07:00</sys_created_on>
         <sys_id>55f9d4c5dbeef64075713c8f9d9619dc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>npatel</sys_updated_by>
-        <sys_updated_on>2017-05-03 20:26:44</sys_updated_on>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-06-27 16:51:57</sys_updated_on>
         <table>x_shce_systems_acc_sac_req</table>
         <timezone/>
         <validated>true</validated>
@@ -51,7 +51,7 @@
         <sys_class_name>wf_workflow</sys_class_name>
         <sys_created_by>spulmano</sys_created_by>
         <sys_created_on>2017-03-01 14:52:48</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>111f93a4db1df60075713c8f9d961987</sys_id>
