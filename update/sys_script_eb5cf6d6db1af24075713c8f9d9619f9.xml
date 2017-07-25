@@ -16,7 +16,7 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_shce_systems_acc_sac_task">stateCHANGESTO3^sac_request.access_typeINAdd/Remove Employee Systems Access,Add/Remove Non-Employee Systems Access^short_descriptionLIKESystems Access Request - Add Access ^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+        <filter_condition table="x_shce_systems_acc_sac_task">stateCHANGESTO3^sac_request.access_typeINAdd/Remove Employee Systems Access,Add/Remove Non-Employee Systems Access^short_descriptionLIKESystems Access Request - Add Access^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
             <item endquery="false" field="sac_request.access_type" goto="false" newquery="false" operator="IN" or="false" value="Add/Remove Employee Systems Access,Add/Remove Non-Employee Systems Access"/>
             <item endquery="false" field="short_description" goto="false" newquery="false" operator="LIKE" or="false" value="Systems Access Request - Add Access"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
@@ -37,6 +37,7 @@
 	// Add your code here
 	if (current.cmdb_ci != '') {
 		var ar = new GlideRecord("x_shce_systems_acc_user_system_access");
+		ar.addQuery('user', current.requested_for);
 		ar.addQuery('application',current.cmdb_ci);
 		ar.addNullQuery('deprovision_date');
 		ar.query();
@@ -61,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>eb5cf6d6db1af24075713c8f9d9619f9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Set User Access Provision Date</sys_name>
         <sys_overrides/>
         <sys_package display_value="Systems Access Control" source="x_shce_systems_acc">7236fc08dbd1b600d88e38ff9d96192e</sys_package>
@@ -70,7 +71,7 @@
         <sys_scope display_value="Systems Access Control">7236fc08dbd1b600d88e38ff9d96192e</sys_scope>
         <sys_update_name>sys_script_eb5cf6d6db1af24075713c8f9d9619f9</sys_update_name>
         <sys_updated_by>spulmano</sys_updated_by>
-        <sys_updated_on>2017-04-28 19:13:53</sys_updated_on>
+        <sys_updated_on>2017-07-25 16:53:12</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
